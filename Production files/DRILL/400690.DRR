@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: 400690.PcbDoc   6/28/2022  12:05:43 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 400690-RoundHoles.TXT
+ASCII SlotHoles File : 400690-SlotHoles.TXT
+EIA File   : 400690.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.249mm)                                           Round             12        PTH        2.88inch (73.26mm)
+T2      12mil (0.3mm)                                             Round             3         PTH        0.07inch (1.90mm)
+T3      12mil (0.305mm)                                           Round             552       PTH        51.09inch (1297.56mm)
+T4      24mil (0.599mm)                                           Slot              4         PTH        1.37inch (34.90mm)
+T5      32mil (0.8mm)                                             Round             2         PTH        0.08inch (2.00mm)
+T6      35mil (0.899mm)                                           Round             24        PTH        2.73inch (69.41mm)
+T7      126mil (3.2mm)                                            Round             4         PTH        5.25inch (133.29mm)
+T8      24mil (0.599mm)                                           Round             18        NPTH       6.52inch (165.64mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              619
+
+Total Processing Time (hh:mm:ss) : 00:00:00
