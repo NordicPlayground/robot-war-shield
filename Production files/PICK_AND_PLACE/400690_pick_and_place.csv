@@ -4,13 +4,17 @@ C:\applications\hardware\pca63557\trunk\production_files\400690_pick_and_place.c
 ========================================================================================================================
 File Design Information:
 
-Date:       28/06/22
-Time:       12:05
-Revision:   24951
+Date:       06/02/23
+Time:       08:59
+Revision:   27868
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R10","0R","TopLayer","RESC3216X08N","13.9750","37.6250","180","RES SMD 0R 1% 1206"
+"R9","0R","TopLayer","RESC3216X08N","13.9750","21.4250","180","RES SMD 0R 1% 1206"
+"R50","0R","TopLayer","RESC3216X08N","13.9750","9.1750","180","RES SMD 0R 1% 1206"
+"R51","0R","TopLayer","RESC3216X08N","13.9750","25.5250","180","RES SMD 0R 1% 1206"
 "U1","BQ24210","TopLayer","BQ24210","44.9900","18.4570","270","IC BATT CHG LI-ION 1CELL 10WSON"
 "R5","820R","TopLayer","RESC1005X04L","45.4400","20.7820","270","Resistor, ±1%, 0.063W"
 "R3","2k0","TopLayer","RESC1005X04L","42.5400","15.8320","180","Resistor, ±1%, 0.063W"
@@ -33,9 +37,9 @@ Units used: mm
 "R42","N.C.","TopLayer","RESC1005X04L_NC","43.7900","34.8070","180","Not mounted"
 "C28","1.0µF","TopLayer","CAPC1005X04L","41.1400","39.1320","90","Capacitor, Ceramic, X5R, ±10%, 10V"
 "C27","1.0µF","TopLayer","CAPC1005X04L","41.1650","31.6570","90","Capacitor, Ceramic, X5R, ±10%, 10V"
-"R34","0R","TopLayer","RESC1005X04L","25.9650","8.9820","90","Resistor, ±5%, 0.063W"
+"R34","N.C.","TopLayer","RESC1005X04L_NC","25.9650","8.9820","90","Not mounted"
 "R31","0R","TopLayer","RESC1005X04L","25.3400","23.8320","90","Resistor, ±5%, 0.063W"
-"R23","0R","TopLayer","RESC1005X04L","25.4650","7.5570","180","Resistor, ±5%, 0.063W"
+"R23","N.C.","TopLayer","RESC1005X04L_NC","25.4650","7.5570","180","Not mounted"
 "R20","0R","TopLayer","RESC1005X04L","25.9400","11.0320","90","Resistor, ±5%, 0.063W"
 "TP9","Ø1.5mm,SMD","TopLayer","TP_SMD_D1.5mm","18.0150","34.5070","0","1.5mm circular SMD testpad"
 "TP10","Ø1.5mm,SMD","TopLayer","TP_SMD_D1.5mm","17.9400","28.7320","0","1.5mm circular SMD testpad"
@@ -49,13 +53,13 @@ Units used: mm
 "TP3","Ø1.5mm,SMD","TopLayer","TP_SMD_D1.5mm","54.2400","14.5820","0","1.5mm circular SMD testpad"
 "TP1","Ø1.5mm,SMD","TopLayer","TP_SMD_D1.5mm","44.5400","11.7820","0","1.5mm circular SMD testpad"
 "U3","TPS63070","TopLayer","VQFN-HR50P250X300X100-15N","35.8335","16.7070","180","2V to 16V Adjustable Buck-Boost Converter With 3.6-A Switch Current"
-"R36","N.C.","TopLayer","RESC1005X04L_NC","23.3650","26.0070","270","Not mounted"
-"R33","0R33","TopLayer","RESC3216X08N","14.8150","28.2320","180","330 Ohms ±0.5% 1W Chip Resistor 1206 (3216 Metric)"
-"R32","N.C.","TopLayer","RESC1005X04L_NC","23.3400","23.8570","270","Not mounted"
-"R29","0R33","TopLayer","RESC3216X08N","14.5900","34.8320","180","330 Ohms ±0.5% 1W Chip Resistor 1206 (3216 Metric)"
-"R25","N.C.","TopLayer","RESC1005X04L_NC","23.9650","8.1320","270","Not mounted"
-"R22","0R33","TopLayer","RESC3216X08N","14.2900","12.1320","180","330 Ohms ±0.5% 1W Chip Resistor 1206 (3216 Metric)"
-"R18","0R33","TopLayer","RESC3216X08N","14.3650","18.6820","180","330 Ohms ±0.5% 1W Chip Resistor 1206 (3216 Metric)"
+"R36","36k","TopLayer","RESC1005X04L","23.3650","26.0070","270","Resistor, ±0.1%, 0.063W"
+"R33","0R33","TopLayer","RESC3216X08N","13.9750","28.2250","180","330 mOhms ±5% 1W Chip Resistor 1206"
+"R32","200k","TopLayer","RESC1005X04L","23.3400","23.8570","270","Resistor, ±1%, 0.063W"
+"R29","0R33","TopLayer","RESC3216X08N","13.9750","34.8320","180","330 mOhms ±5% 1W Chip Resistor 1206"
+"R25","36k","TopLayer","RESC1005X04L","23.9650","8.1320","270","Resistor, ±0.1%, 0.063W"
+"R22","0R33","TopLayer","RESC3216X08N","13.9750","12.1320","180","330 mOhms ±5% 1W Chip Resistor 1206"
+"R18","0R33","TopLayer","RESC3216X08N","13.9750","18.6820","180","330 mOhms ±5% 1W Chip Resistor 1206"
 "R14","56k","TopLayer","RESC1608X06L","39.6150","17.9070","90","Resistor, ±1%, 0.06W"
 "R12","560k","TopLayer","RESC1608X06L","39.3400","20.4570","90","Resistor, ±1%, 0.06W"
 "R4","0R","TopLayer","RESC1005X04L","36.6400","38.7070","90","Resistor, ±5%, 0.063W"
@@ -81,7 +85,7 @@ Units used: mm
 "R37","1k","TopLayer","RESC1005X04L","21.1400","28.0570","90","Resistor, ±1%, 0.063W"
 "R35","15k","TopLayer","RESC1005X04L","20.1400","26.0320","90","Resistor, ±1%, 0.063W"
 "R30","18k","TopLayer","RESC1005X04L","22.6900","29.3070","0","Resistor, ±1%, 0.063W"
-"R21","N.C.","TopLayer","RESC1005X04L_NC","22.9650","8.1320","90","Not mounted"
+"R21","200k","TopLayer","RESC1005X04L","22.9650","8.1320","90","Resistor, ±1%, 0.063W"
 "R28","18k","TopLayer","RESC1005X04L","22.7150","32.2070","0","Resistor, ±1%, 0.063W"
 "C24","22nF","TopLayer","CAPC1005X04L","21.1150","26.0070","90","Capacitor, X7R, ±10%"
 "C23","10nF","TopLayer","CAPC1005X04L","19.1650","26.0320","90","Capacitor, X7R, ±10%"
